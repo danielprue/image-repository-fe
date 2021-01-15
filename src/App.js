@@ -97,7 +97,7 @@ function App() {
       .then((result) => {
         if (result.token) {
           localStorage.setItem('token', result.token);
-          localStorage.setItem('user', result.id);
+          localStorage.setItem('user', result.Id);
           setLoginStatus(true);
           handleOnCancel();
         } else {
