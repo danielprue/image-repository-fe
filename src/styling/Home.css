@@ -1,0 +1,54 @@
+.home-page-header {
+  width: 100%;
+  max-width: 1296px;
+  margin: auto;
+}
+
+.grid-container {
+  width: 95%;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.grid-container img {
+  opacity: 1;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.grid-container img:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.ant-upload-picture-card-wrapper {
+  margin: 20px 10px;
+}
+
+.pagination-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.image-details-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.image-details-form {
+  display: inline-block;
+  line-height: 2;
+  margin: 20px;
+}
+
+.tag-group-tag {
+  margin-top: 5px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.visible {
+  display: inline;
+}

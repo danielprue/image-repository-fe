@@ -1,0 +1,26 @@
+.image-details {
+  height: calc(100vh - 64px - 85.5px);
+  margin: auto;
+  width: 100%;
+  max-width: 1024px;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-details-header {
+  width: 100%;
+  padding: 10px;
+}
+
+.image-info {
+  text-align: left;
+}
+
+.button-container {
+  display: flex;
+}
+
+.button-container button {
+  margin-left: 10px;
+}
