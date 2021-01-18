@@ -338,7 +338,7 @@ function App() {
         </Content>
         <Footer className='footer'>
           <a
-            href='https://github.com/danielprue/image-repository'
+            href='https://github.com/danielprue/image-repository-be'
             className='github-icon-link'
           >
             <GithubOutlined className='github-icon' />

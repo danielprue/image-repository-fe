@@ -164,6 +164,7 @@ const UploadModal = (props) => {
 
         {uploadProgress === 0 ? (
           <Upload
+            accept={'image/png, image/jpg'}
             listType='picture-card'
             fileList={fileList}
             showUploadList={{ showPreviewIcon: false }}
