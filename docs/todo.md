@@ -2,6 +2,7 @@
 
 ## Features
 
+* Add all of this list to the issues on github
 * Make tags clickable, returning a home page search for all images with matching tags -- Link to issue
 * Add centralized state management (Probably redux) -- Link to issue
 * Add page to view/customize account details -- Link to issue
